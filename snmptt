@@ -123,8 +123,7 @@ if ($debug == 2)
 
 if ($dump ==1)
 {
-	$DEBUGGING = 2;
-	$debugcmdline = 1;
+	$DEBUGGING = 2;	
 	&findsnmpttini;
 	&loadsnmpttini;
 	&loadsnmpttconf;		# Load SNMPTT.CONF file
