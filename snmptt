@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# SNMPTT v0.5.1
+# SNMPTT v0.6
 #
 # Copyright 2002 Alex Burger
 # alex_b@users.sourceforge.net
@@ -46,7 +46,7 @@
 ##############################################################################
 #
 
-$snmptt_version = "v0.5.1";
+$snmptt_version = "v0.6";
 
 sub showversion
 {
@@ -1046,7 +1046,7 @@ sub substitute
 	    
 	    if ($DEBUGGING >= 2)
 	    {
-		    print "translated to: $val2\n\n";
+		    print "  Translated to: $val2\n\n";
 	    }    
           }
 	  else
@@ -1054,7 +1054,7 @@ sub substitute
 	    $val = $entvar[$i-1];
 	    if ($DEBUGGING >= 2)
 	    {
-		    print "Could not translate\n\n";
+		    print "  Could not translate\n\n";
 	    } 
 	  }
 	}
